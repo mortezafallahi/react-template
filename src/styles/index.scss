@@ -1,4 +1,4 @@
-@import url("./fonts.scss");
+@import url('./fonts.scss');
 
 @tailwind base;
 @tailwind components;
@@ -7,5 +7,14 @@
 @layer base {
   body {
     @apply font-primary;
+  }
+}
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+  .ltr {
+    direction: ltr;
   }
 }

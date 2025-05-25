@@ -1,4 +1,4 @@
-import { router } from 'react-query-kit';
+import { router } from './routers/router';
 import { RouterProvider } from 'react-router';
 
 function App() {
